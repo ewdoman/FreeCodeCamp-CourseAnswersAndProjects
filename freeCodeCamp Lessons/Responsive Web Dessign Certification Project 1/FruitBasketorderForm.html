@@ -1,0 +1,92 @@
+<!--Responsive Web Design Certification Project 1 - Fruit Basket Order Form-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fruit Basket Order Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Fruit Survey</h1>
+    <p id="description">Please fill out your contact information and how you would like your fruit basket to be made</p>
+    <form id="survey-form">
+
+      <fieldset>
+        <label id="name-label">Name: 
+          <input id="name" type="text"
+          placeholder="Enter full name" required>
+        </input></label>
+        <label id="email-label">Email: 
+          <input id="email" type="email" 
+          placeholder="Enter email address" required>
+        </input></label>
+        <label id="address-label">Address: 
+          <input id="address" type="text" 
+          placeholder="Enter mailing address" required>
+        </input></label>
+      </fieldset>
+
+      <fieldset>
+          <label id="number-label">Please enter the number of fruit you would like in your basket: 
+          <input id="number" type="number" 
+          min="2" max="20" placeholder="0" required>
+        </input></label>
+      </fieldset>
+
+
+      <fieldset>
+        <label id="number-label">What is the reason for ordering a fruit basket: 
+          <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Gift</option>
+              <option value="2">Event or Party</option>
+              <option value="3">Decoration</option>
+              <option value="4">Hungry</option>
+              <option value="5">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Please select which fruits you would like in your basket:</label>
+        <label>Banana: <input value="1" 
+        id="check" type="checkbox"/></label>
+        <label>Apple: <input value="2" 
+        id="check" type="checkbox"/></label>
+        <label>Orange: <input value="3" 
+        id="check" type="checkbox"/></label>
+        <label>Kiwi: <input value="4" 
+        id="check" type="checkbox"/></label>
+        <label>Cherry: <input value="5" 
+        id="check" type="checkbox"/></label>
+        <label>Strawberry: <input value="6" 
+        id="check" type="checkbox"/></label>
+        <label>Blueberry: <input value="7" 
+        id="check" type="checkbox"/></label>
+        <label>Watermelon: <input value="8" 
+        id="check" type="checkbox"/></label>
+      </fieldset>
+
+      <fieldset>
+        <label>Would you like to include a complementary ribbon on you fruit basket: </label
+        <label id="include-ribbon">Yes
+          <input value="include-ribbon" id="ribbon-radio" 
+          name="include-ribbon" type="radio" checked/>
+        </label>
+        <label id="no ribbon">No: 
+          <input value="include-ribbon" id="noribbon-radio" 
+          name="include-ribbon" type="radio"/>
+        </label>
+      </fieldset>
+
+      <fieldset>
+         <label for="feedback">Comments or Suggestions: 
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="More fruit options, etc..."></textarea>
+        </label>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit"/>
+
+    </form>
+  </body>
+</html>
