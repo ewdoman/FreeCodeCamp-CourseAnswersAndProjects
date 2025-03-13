@@ -35,7 +35,3 @@ Each folder includes:
 - **Progress Tracking**: Keep track of my progression through the FreeCodeCamp Responsive Web Design course.
 - **Reference**: Serve as a collection of completed exercises and projects for future reference.
 
-## How to Use
-
-You can clone this repository to your local machine using the following command:
-
