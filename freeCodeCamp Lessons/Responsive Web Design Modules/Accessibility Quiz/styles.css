@@ -156,14 +156,14 @@ button {
 }
 
 footer {
-  background-color: #2a2a40; /* background color */
-  display: flex;  /* sets up flexbox display */
+  background-color: #2a2a40;
+  display: flex;
   justify-content: center;
 }
 
 footer,
 footer a {
-  color: #dfdfe2; /* text color */
+  color: #dfdfe2;
 }
 
 address {
