@@ -1,3 +1,22 @@
 h1 {
+    font-family: Verdana, sans-serif;
     text-align: center;
-}
+  }
+  
+  .img-div {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100%;             /* Ensure the parent has height */
+  }
+  
+  #image {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  
