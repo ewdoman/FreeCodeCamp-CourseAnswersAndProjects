@@ -1,22 +1,89 @@
-h1 {
-    font-family: Verdana, sans-serif;
-    text-align: center;
+/* Reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    /* Colormagic.app */
+    --color-1: #e9cb35;
+    --color-2: #e7954d;
+    --color-3: #84233e;
+    --color-4: #4f083a;
+    --color-5: #a02a67;
+    /* font-family */
+    --ff: Garamond; /* alt Georgia, Verdana, sans-serif */
+    --fs: 12px;
+    --p: 1rem/1.5rem var(--ff);
+    --h1: 600 3rem/1.2em var(--ff);
+    --h2: 600 2rem/1.2em var(--ff);
+    --spacing1: 4px;
+    --spacing2: 8px;
+    --spacing3: 16px;
+    --spacing4: 32px;
+    --spacing5: 64px;
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
   }
+
+html {
+    font-size: var(--fs);
+    scroll-behavior: smooth;
+}
+
+body{
+    text-wrap: balance;
+    font-family: var(--p);
+    background: var(--color-2);
+    color: var(--color-4);
+    text-align: center; /* need to revisit is this good design practice */
+}
+
+h1{
+    font-size: 4rem;
+    margin: var( --spacing2);
+    font-family: var(--ff);
+}
+
+h2 {
+    font-family: var(--h2);
+    margin: var(--spacing2)
+}
+
+a {
+    color: var(--color-5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-1);
+}
+
+
+#img-div {
+    
+    background: var(--color-1);
+    padding: 10px;
+    margin: 0;
+    /*display: flex;*/
+    /*justify-content: center;  /* Center horizontally */
+    /*align-items: center;      /* Center vertically */
+    height: 100%;             /* Ensure the parent has height */ 
+}
   
-  .img-div {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically */
-    height: 100%;             /* Ensure the parent has height */
-  }
-  
-  #image {
+#image {
     height: auto;
     max-width: 100%;
-  }
+}
   
-  img {
+img {
     display: block;
-  }
+}
   
   
