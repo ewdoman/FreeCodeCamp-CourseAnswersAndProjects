@@ -1,0 +1,13 @@
+/* Reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  body {
+    flex-direction: row; /* Change to horizontal layout on larger screens */
+  }
+}
