@@ -11,27 +11,37 @@
 
 <body>
   <header id="header">
-    <div class="overlay">
-      <h1>DJ Dough$</h1>
-      <nav id="nav-bar">
-        <a class="nav-link" href="#header">Home</a> |
-        <a class="nav-link" href="#video">Services</a> |
-        <a class="nav-link" href="#video">Music</a> |
-        <a class="nav-link" href="#video">Shows</a> |
-        <a class="nav-link" href="#form">Contact</a>
-      </nav>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/freecodecamp/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/freecodecamp/"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/freecodecamp"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/school/free-code-camp/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.youtube.com/freecodecamp"><i class="fab fa-youtube"></i></a>
-      </div>
-    </div>
-    <img id="header-img" src="https://www.denondj.com/assets/images/category/dj-turntables/denondj-img-tuvl12sec.jpg" alt="DJ Turntable" />
+    <img id="header-img" src="https://static.thenounproject.com/png/55431-200.png" alt="note" hidden/>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#header">Home</a> |
+      <a class="nav-link" href="#video">Services</a> |
+      <a class="nav-link" href="#video">Music</a> |
+      <a class="nav-link" href="#video">Shows</a> |
+      <a class="nav-link" href="#form">Contact</a>
+    </nav>
   </header>
-
   <main>
+    <img id="background-img" src="https://www.denondj.com/assets/images/category/dj-turntables/denondj-img-tuvl12sec.jpg" alt="DJ Turntable" />
+    <section id="body">
+      <div class="overlay">
+        <h1>DJ Dough$</h1>
+        <!-- <nav id="nav-bar2">
+          <a class="nav-link" href="#header">Home</a> |
+          <a class="nav-link" href="#video">Services</a> |
+          <a class="nav-link" href="#video">Music</a> |
+          <a class="nav-link" href="#video">Shows</a> |
+          <a class="nav-link" href="#form">Contact</a>
+        </nav> -->
+        <div class="social-icons">
+          <a href="https://www.facebook.com/freecodecamp/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/freecodecamp/"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/freecodecamp"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/school/free-code-camp/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/freecodecamp"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </section>
+
     <section class="video-section">
       <div class="video-wrapper">
         <iframe id="video" width="560" height="315" 
@@ -48,10 +58,9 @@
       <h2>Join our Mailing List</h2>
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" required placeholder="stub@gmail.com"><br>
-      <button type="submit" id="submit" style="padding: 10px 20px;">Subscribe</button>
+      <input type="submit" id="submit" style="padding: 10px 20px;">Subscribe</input>
     </form>
 
   </main>
 </body>
 </html>
-
